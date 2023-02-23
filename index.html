@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="assets/images/profile.png" />
+    <link rel="stylesheet" href="reset.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/57cdec256c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js" defer></script>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <!-- navbar -->
+        <div class="navbar__container">
+          <nav class="navbar">
+            <!-- logo -->
+            <img src="assets/images/logo_transparent.png" class="logo" />
+
+            <!-- hamburger menu -->
+            <div class="hamburger__container">
+              <div class="hamburger__inner"></div>
+            </div>
+
+            <!-- menu -->
+            <ul class="navbar__menu">
+              <!-- item: home -->
+              <li class="navbar__menu__item"><a href="#home"> Home </a></li>
+              <!-- item: about -->
+              <li class="navbar__menu__item">
+                <a href="#about-me-position"> About </a>
+              </li>
+              <!-- item: portfolio -->
+              <li class="navbar__menu__item">
+                <a href="#portfolio-position"> Portfolio </a>
+              </li>
+
+              <!-- item: portfolio -->
+              <li class="navbar__menu__item">
+                <a href="#journey-position"> My Journey </a>
+              </li>
+
+              <!-- download CV button -->
+              <li class="navbar__menu__item">Download CV</li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- content -->
+        <div class="content" id="home">
+          <div class="content__right">
+            <img
+              src="assets/images/profile.png"
+              alt="Personal profile picture"
+              class="profile-picture"
+            />
+          </div>
+          <div class="content__left">
+            <div class="hello">Hello, I'm</div>
+            <div class="name">Duc Phuong</div>
+            <div class="job">
+              <p>
+                A <span class="greenText">Creative Designer</span> From
+                <span class="purpleText">New York</span>
+              </p>
+            </div>
+            <div class="short-intro">
+              <p>
+                I'm a front-end developer based in Ha Noi, and I'm very
+                passionate and dedicated to my work
+              </p>
+            </div>
+
+            <!-- buttons -->
+            <div class="content__buttons">
+              <!-- about me -->
+              <a class="about-me" href="#about-me">About Me</a>
+
+              <!-- facebook -->
+              <a href="">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+
+              <!-- twitter -->
+              <a href=""> <i class="fa-brands fa-twitter"></i></a>
+
+              <a href=""> <i class="fa-solid fa-envelope"></i></a>
+              <!-- email -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="main-container">
+      <!-- about me -->
+      <section id="about-me" class="animated-reveal">
+        <div
+          class="about-me-position title-position"
+          id="about-me-position"
+        ></div>
+        <img src="assets/images/brush1.png" class="brush brush-1" />
+        <img src="assets/images/brush3.png" class="brush brush-3" />
+        <img src="assets/images/brush4.png" class="brush brush-4" />
+
+        <div class="about-me__container">
+          <div class="about-me__left">
+            <img
+              class="working-img"
+              src="https://cardiff.imgix.net/__data/assets/image/0007/2432446/Home-working.jpg?w=873&h=491&fit=crop&q=60&auto=format"
+            />
+            <div class="experience-year">
+              <span class="number">2</span>
+              <span>Years of experience</span>
+            </div>
+            <div class="projects">
+              <span class="number">10+</span>
+              <span>Projects</span>
+            </div>
+          </div>
+
+          <div class="about-me__right">
+            <div class="about-me__right__title title">Who am i?</div>
+            <div class="about-me__right__sub-title sub-title">
+              I'm a front-end developer
+            </div>
+            <div class="about-me__content desc">
+              <p>
+                Having graduated from Foreign Trade University but i soon
+                realized that I have a huge passion for technology. Now I'm
+                ready to switch to full-time software developer in Android
+                (Java), Web (HTML, CSS, JavaScript) or Web App (Angular).
+                Besides, I'm also used to many tools: UiPath, VBA, Office tools
+                and many more.
+              </p>
+            </div>
+
+            <a class="hire-me"> Hire me </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- portfolio -->
+      <section id="portfolio" class="animated-reveal">
+        <div
+          class="portfolio-position title-position"
+          id="portfolio-position"
+        ></div>
+        <div class="portfolio__container">
+          <div class="skills">
+            <div class="title">Skills</div>
+            <div class="sub-title">A little bit about my skills</div>
+            <div class="desc">
+              I have learned various skills that support me on my projects and
+              I'm willing to learn new things
+            </div>
+
+            <!-- list skills -->
+            <div class="skills_main-content">
+              <!-- programming skills -->
+              <div class="skills__programming-language">
+                <div class="programming-language__container">
+                  <div class="angular programming-skill">
+                    <img
+                      src="assets/images/angular.svg"
+                      alt=""
+                      class="programming-skill__img"
+                    />
+                    <span>Angular</span>
+                  </div>
+                  <div class="android programming-skill">
+                    <img
+                      src="assets/images/android.svg"
+                      alt=""
+                      class="programming-skill__img"
+                    />
+                    <span>Android</span>
+                  </div>
+                  <div class="java programming-skill">
+                    <img
+                      src="assets/images/java.svg"
+                      alt=""
+                      class="programming-skill__img"
+                    />
+                    <span>Java</span>
+                  </div>
+                  <div class="rpa programming-skill">
+                    <img
+                      src="assets/images/rpa.svg"
+                      alt=""
+                      class="programming-skill__img"
+                    />
+                    <span>RPA</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- soft skills -->
+              <div class="skills__soft-skills">
+                <div class="softskills__container">
+                  <div>Time/Task Management</div>
+                  <div class="skill-container">
+                    <div class="skill timeManagement"></div>
+                  </div>
+                </div>
+
+                <!-- officeTool -->
+                <div class="softskills__container">
+                  <div>Office Tools (Excel, Word,...)</div>
+                  <div class="skill-container">
+                    <div class="skill officeTool"></div>
+                  </div>
+                </div>
+
+                <!-- English -->
+                <div class="softskills__container">
+                  <div>English</div>
+                  <div class="skill-container">
+                    <div class="skill english"></div>
+                  </div>
+                </div>
+
+                <!-- Self-taught -->
+                <div class="softskills__container">
+                  <div>Self-taught</div>
+                  <div class="skill-container">
+                    <div class="skill self-taught"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- tools -->
+      <section id="journey" class="animated-reveal">
+        <div
+          class="journey-position title-position"
+          id="journey-position"
+        ></div>
+        <div class="journey_container">
+          <div class="title">My Journey</div>
+          <div class="sub-title">Projects that I'm in charged</div>
+          <div class="desc">
+            I have made some progress during my journey and improved everyday
+          </div>
+
+          <div class="journey__main-content">
+            <!-- project 1 -->
+            <a
+              class="journey__item__container"
+              href="https://dphuong2103.github.io/chatApp/"
+              target="_blank"
+            >
+              <div class="journey__item">
+                <img
+                  src="assets/images/chat-ui.png"
+                  alt=""
+                  class="journey__item__img"
+                />
+                <div class="journey__item__name">Chat App</div>
+              </div>
+            </a>
+
+            <!-- project 2 -->
+            <a
+              class="journey__item__container"
+              href="https://dphuong2103.github.io/CountdownTimer/"
+              target="_blank"
+            >
+              <div class="journey__item">
+                <img
+                  src="assets/images/countdown timer.png"
+                  alt=""
+                  class="journey__item__img"
+                />
+                <div class="journey__item__name">Countdown Timer</div>
+              </div>
+            </a>
+
+            <!-- project 3 -->
+            <a
+              class="journey__item__container grid-col-span-2"
+              href="https://dphuong2103.github.io/weather/"
+              target="_blank"
+            >
+              <div class="journey__item">
+                <img
+                  src="assets/images/weather.png"
+                  alt=""
+                  class="journey__item__img grid-img-span-2"
+                />
+                <div class="journey__item__name">Weather</div>
+              </div>
+            </a>
+
+            <!-- project 4 -->
+            <a
+              class="journey__item__container"
+              href="https://dphuong2103.github.io/Music-Player/"
+              target="_blank"
+            >
+              <div class="journey__item">
+                <img
+                  src="assets/images/music player.png"
+                  alt=""
+                  class="journey__item__img"
+                />
+                <div class="journey__item__name">Simple music player</div>
+              </div>
+            </a>
+
+            <!-- project 5 -->
+            <a
+              class="journey__item__container"
+              href="https://dphuong2103.github.io/Profile-Card/"
+              target="_blank"
+            >
+              <div class="journey__item">
+                <img
+                  src="assets/images/profile card.png"
+                  alt=""
+                  class="journey__item__img"
+                />
+                <div class="journey__item__name">Profile Card</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <div class="footer__container">
+        <span class="copy-right"
+          >Developed by <span class="midouz">Midouz</span></span
+        >
+        <span class="phone">
+          Phone:
+          <a href="tel: (+84) 968 267 621"> (+84) 968 267 621 </a>
+        </span>
+      </div>
+    </footer>
+  </body>
+</html>
